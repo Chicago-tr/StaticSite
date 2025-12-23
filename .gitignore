@@ -1,3 +1,5 @@
 __pycache__/
 index.html
 styles.css
+public/
+.DS_Store

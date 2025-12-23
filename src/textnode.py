@@ -50,3 +50,4 @@ def text_node_to_html_node(text_node):
     # return f"<a href= "
     elif type == "image":
         return LeafNode("img", "", {"src": url, "alt": txt})
+    raise ValueError(f"invalid text type: {text_node.text_type}")
